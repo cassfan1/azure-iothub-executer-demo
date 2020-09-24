@@ -8,7 +8,7 @@ namespace Azure.IoTHub.Executer
 {
   class Program
   {
-    private static readonly string DeviceConnectionString = "HostName=iot-hub-cass-test.azure-devices.net;DeviceId=dps-device-010;SharedAccessKey=ab0ff99f9d72da5e08e34968cf46ede30874981c9cddd9168e3809dbc7049cee";
+    private static readonly string DeviceConnectionString = "";
 
     static async Task Main(string[] args)
     {
