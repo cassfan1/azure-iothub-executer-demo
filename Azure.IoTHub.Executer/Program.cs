@@ -17,7 +17,7 @@ namespace Azure.IoTHub.Executer
 
     private static async Task SyncToIoTHubAsync()
     {
-      // connect to iothub
+      // connect to IoTHub
       var deviceClient = DeviceClient.CreateFromConnectionString(DeviceConnectionString);
 
       while (true)
